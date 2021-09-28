@@ -32,7 +32,7 @@ function numberOfCharacters(string) {
       objeto[string[i]] = 1;
     }
     else {
-      objeto[string[i]]++; //objeto[string[i]]++ = objeto[string[i]]++ + 1;//
+      objeto[string[i]]++; //objeto[string[i]]++ = objeto[string[i]] + 1;//
     }
   }
   return objeto;
